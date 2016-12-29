@@ -15,5 +15,6 @@ include "Php.php";
 	$php = new Php;
 	$php->framework();
 	
-
+	$phpChild = new PhpChild;
+	$phpChild->framework();
 ?>
